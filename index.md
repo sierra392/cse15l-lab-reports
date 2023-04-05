@@ -6,4 +6,4 @@
 - Blue
 - Purple
 
-class website: [link](https://ucsd-cse15l-s23.github.io/week/week1/)
+class website: [link to website](https://ucsd-cse15l-s23.github.io/week/week1/)
