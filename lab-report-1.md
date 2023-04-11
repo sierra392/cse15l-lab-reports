@@ -10,8 +10,8 @@
 - Open a terminal in VScode
 ![Image](GitBashImage.png)
 - Go to the lower righthand corner and click the "v" symple next to the "+" symbol which should give you a list of options to select, and you need to select Git Bash
-![Image](loginPhoto.png)
 - Now in the terminal type `ssh courseAccountName@ieng6.ucsd.edu` and enter, with "courseAccountName" replaced by your actual course account name (note that in the photos I used my school not course username becasue it was not working in lab)
+![Image](loginPhoto.png)
 - If prompted with a message of if you want to continue type `yes` and enter, this can happen if you are on a new server for the first time, then type your password and enter
 ![Image](loggedIn.png)
 - Now you are connected!
