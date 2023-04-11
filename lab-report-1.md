@@ -2,9 +2,8 @@
 ## How To Get Remote Access
 ---
 > **Download VScode and Git If You Need It**
-
-![Image](VsCodeDownloadImage.png)
 - VScode must be dowloaded. I already had VScode downloaded prior to the lab so I could skip this step but if I need to in the future I can download it from [this link](https://code.visualstudio.com/)
+![Image](VsCodeDownloadImage.png)
 - Git for Windows must be downloaded if you use a windows computer which you get with [this link](https://gitforwindows.org/)
 
 > **Remotely Connecting**
@@ -18,8 +17,7 @@
 - Now you are connected!
 
 > **Trying Out Some Commands**
-
-![Image](tryingCommands1.png)
 - `ls -a` This command list the folders and files given by the path
 - `cd ~` This command changes the directory to the home directory
 - `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` This command prints the contents of the file hello.txt given by the path
+![Image](tryingCommands1.png)
