@@ -17,7 +17,7 @@
 - Now you are connected!
 
 > **Trying Out Some Commands**
-![Image](tyringCommands1.png)
+![Image](tryingCommands1.png)
 - `ls -a` This command list the folders and files given by the path
 - `cd ~` This command changes the directory to the home directory
 - `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` This command prints the contents of the file hello.txt given by the path
