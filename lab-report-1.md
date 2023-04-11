@@ -22,4 +22,4 @@
 - `pwd` This command prints the working directory (the photo shows the working directory printed out before and after the command `cd ~`
  are the same because we were already working in the home directory)
 - `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` This command prints the contents of the file hello.txt given by the path
-![Image](tryingCommands1.png)
+![Image](tryingCommands1.png) 
