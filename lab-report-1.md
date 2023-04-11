@@ -18,6 +18,7 @@
 
 > **Trying Out Some Commands**
 - `ls -a` This command list the folders and files given by the path
-- `cd ~` This command changes the directory to the home directory
+- `cd ~` This command changes the directory to the home directory, it doesn't output anything to the terminal (shown in the photo)
+- `pwd` This command prints the working directory (the photo shows the working directory printed out before and after the command 'cd ~` are the same because we were already working in the home directory)
 - `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` This command prints the contents of the file hello.txt given by the path
 ![Image](tryingCommands1.png)
