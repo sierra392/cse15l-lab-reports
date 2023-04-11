@@ -2,7 +2,7 @@
 ## How To Get Remote Access
 ---
 > **Download VScode and Git If You Need It**
-![Image](VSCodeDownloadImage.png)
+![Image](VsCodeDownloadImage.png)
 - VScode must be dowloaded. I already had VScode downloaded prior to the lab so I could skip this step but if I need to in the future I can download it from [this link](https://code.visualstudio.com/)
 - Git for Windows must be downloaded if you use a windows computer which you get with [this link](https://gitforwindows.org/)
 
