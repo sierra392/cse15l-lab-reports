@@ -12,7 +12,7 @@
 
 > **Part 2**
 - Code with a bug:
-- `static int[] reversed(int[] arr) {
+`static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = newArray[arr.length - i - 1];
@@ -26,7 +26,7 @@
     assertArrayEquals(new int[]{ 3,2,1,0}, ArrayExamples.reversed(input1));
   }`
 - Non Failure inducing input as a test:
-- `@Test
+ `@Test
   public void testReversed3() {
     int[] input1 = {};
     assertArrayEquals(new int[]{}, ArrayExamples.reversed(input1));
@@ -34,7 +34,7 @@
   ![Image](BugTests.png)
  - The above photo is the result of running the two tests along with other tests created in lab. 
  - Fixed code without a bug
- - `static int[] reversed(int[] arr) {
+ `static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       newArray[i] = arr[arr.length - i - 1];
