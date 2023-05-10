@@ -8,7 +8,7 @@
 ![Image](BlankStringServer.png)
 ![Image](newMessage1.png)
 ![Image](newMessage2.png)
-- For the very first screenshot, before any messages are added, the method ==start()== in the ==Server== class is called. While this is called, a ==new Handler()== is created which calls the ==handleRequest()== method that takes the ==URI== of the newly opened server. However since the value of the ==URI== doesn't have any paths the ==String== ==str== that stores the value of the message on the web page remains empty so nothing is displayed. For the second screenshot which is after adding the path ==/add-message?s=hello== to the ==URI==, the ==handleRequest()== method is called for a new ==URI== as the parameter. Then in this method the local variable ==str== is updated to include the new message from the path taken in the ==URI== and a new line. 
+- For the very first screenshot, before any messages are added, the method `start()` in the `Server` class is called. While this is called, a `new Handler()` is created which calls the `handleRequest()` method that takes the `URI` of the newly opened server. However since the value of the `URI` doesn't have any paths the `String` `str` that stores the value of the message on the web page remains empty so nothing is displayed. For the second screenshot which is after adding the path `/add-message?s=hello` to the `URI`, the `handleRequest()` method is called for a new `URI` as the parameter. Then in this method the local variable `str` is updated to include the new message from the path taken in the `URI` and a new line. 
 
 > **Part 2**
 - Code with a bug:
