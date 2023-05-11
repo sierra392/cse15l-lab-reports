@@ -3,7 +3,6 @@
 ---
 > **Command: grep**
 - `grep -v`finds the inverse match, or the lines that don't contain the string that is passed to it, which is uselful for filtering a file if you don't want to find some instances. I found this from [this link](https://en.wikibooks.org/wiki/Grep).
-- Examples: 
 ![Image](-v1.png)
 ![Image](-v1.2.png)
 ![Image](-v2.png)
