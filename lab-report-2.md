@@ -40,15 +40,13 @@ static int[] reversed(int[] arr) {
   ![Image](BugTests.png)
  - The above photo is the result of running the two tests along with other tests created in lab. 
  - Fixed code without a bug
-```
-static int[] reversed(int[] arr) {
+```static int[] reversed(int[] arr) {
      int[] newArray = new int[arr.length];
      for(int i = 0; i < arr.length; i += 1) {
        newArray[i] = arr[arr.length - i - 1];
      }
      return newArray;
-   }
-  ```
+   }```
  - This fix adresses the issues because the issue is that the new array that was created wasn't being modified, instead the array that was taken as a parameter was being modified. Simlarly, the new array wasn't being returned and instead the array that was taken as a parameter was returend. By changing the code inside the for loop to the new array being modifed, `newArray[i] = arr[arr.length - i - 1];`, and the new array being returned, `return newArray;`, this bug was fixed. 
 
 > **Part 3**
