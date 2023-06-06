@@ -15,7 +15,7 @@
 - ![Image](photo1.4.png)
 - The first photo shows `total.txt` with the wrong output from the `grep` command, and the second photo shows what it would look like correct. The image in the Edstem post shows the bash script containing the error
 - The command I ran in the terminal to trigger the bug was the command to run the bash script, or `bash report5.sh`, however the line in the bash script that triggered the error was `grep -1 "not-for-profit" technical/government/media/*.txt > total.txt`
-- The edit to fix the bug was changing the previosly mentioned `grep` command from `grep -1`... to `grep -l`...
+- The edit to fix the bug was changing the previosly mentioned `grep` command from `grep -1` to `grep -l`
 ---
 ## Reflection
 - One thing I found out from lab that I thought was cool was understanding how gradescope worked and creating my own bash scripts to run tests on code. It was interesting to see how something I've been using all of my freshman year worked. I never previously thought about it, I just submitted my code to gradescope and waiting to see if I passed my tests, so now its cool to understand it at a different level. Additionally I thought it was interesting to see how to write in a different syntax for bash scripts. 
