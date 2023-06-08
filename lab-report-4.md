@@ -15,7 +15,7 @@
 > **Step 7 (Edit code to fix failing test)**
 - Commands: `vim ListExamples.java`
 - Commands inside vim: `<j>` 44 times, `<l>` 12 times,  `<x>`, `<i>`, `<enter>`, `<2>`, `<esc>`, `:wq`, `<enter>`
-- First I entered the vim editor. Then I positioned my cursor over the appriopiate spot in the file, using `<j>` and `<l>`. Then I deleted the incorrect character and entered the correct charater using delete and insert mode in vim. Finally I saved my changes with the command `:wq`.
+- First I entered the vim editor. Then I positioned my cursor over the appriopiate spot in the file, using `<j>` and `<l>`. Then I deleted the incorrect character and entered the correct charater using delete and insert mode in vim. Finally I saved my changes with the command `:wq`. I only screenshotted a portion of ListExamples.java because it didn't all fit on my screen.
 - ![Image](photo2.4.png)
 > **Step 8 (Run tests again with sucess)**
 - Commands: `<^>` 3 times (`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 3 up in my search history), `<enter>`, `<^>` 3 times ( `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was 3 up in my search history), `<enter>`, 
@@ -24,4 +24,4 @@
 > **Step 9 (Commit and Push to Github)**
 - Commands: `git add ListExamples.java`, `<enter>`, `git commit -m "update"`, `<enter>`, `git push origin main`, `<enter>`
 - Using these git commands I was able to add the file ListExamples.java to the set of changes to be commited, then I commited my changes with the message "update", then I pushed my changes to my repository on github. 
-- ![Image](photo2.6.png)
+- ![Image](photo 2.6.png)
