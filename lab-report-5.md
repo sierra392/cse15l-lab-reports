@@ -1,12 +1,12 @@
 # **Lab Report 5**
 ---
 >**Post From Student**
-![Image](photo1.1.png)
-![Image](photo1.2.png)
+- ![Image](photo1.1.png)
+- ![Image](photo1.2.png)
 > **TA Response**
 - "Have you tried looking at the output in `total.txt` to see if it is what you expected from the `grep` command? It seems like the wrong output may be directed to `total.txt` from the `grep` command. You should try looking at the contents from `total.txt` to see if it is what you would expect from `grep -l` and if it is not what you expect, look at how you wrote your command again to see if you made a typo or error."
 > **Output after TA Response**
-![Image](photo1.3.png)
+- ![Image](photo1.3.png)
 - Now the command is producing the right output expected. The bug was instead of doing `grep -l`, the student was doing `grep -1`, or using a one (1) instead of the letter l. Something similar happened to me in a lab and I had to ask my lab partners and the TA until the error was discovered. 
 > **Setup Information**
 - The file and directory structure needed for this is the repository from lab 4, which is docsearch. Additionally this scenario requires a bash script file, which I named `report5.sh`, which needs to make an error by using `grep -1` instead of `grep -l`, which is described  and shown above.
